@@ -1,0 +1,100 @@
+.calendar-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.pfp-navbar {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border: 2px solid #000000;
+}
+
+.calendar {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    /* Increased width */
+}
+
+.calendar div {
+    width: 14.28%;
+    padding: 15px;
+    /* Increased padding */
+    box-sizing: border-box;
+    text-align: center;
+    cursor: pointer;
+}
+
+.calendar div.disabled {
+    background: #ffdddd;
+    color: #ff0000;
+    pointer-events: none;
+}
+
+.calendar div.past {
+    background: #e0e0e0;
+    color: #a0a0a0;
+    pointer-events: none;
+}
+
+.calendar div.past.disabled {
+    background: #e0e0e0;
+    color: #a0a0a0;
+}
+
+.calendar div.selected {
+    background: #00ff00;
+    color: #ffffff;
+}
+
+.calendar div.in-range {
+    background: #ccffcc;
+    color: #000000;
+}
+
+.calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    /* Increased width */
+}
+
+.calendar-header button {
+    cursor: pointer;
+}
+
+.day-header {
+    width: 14.28%;
+    padding: 15px;
+    /* Increased padding */
+    box-sizing: border-box;
+    text-align: center;
+    font-weight: bold;
+}
+
+.confirm-button {
+    margin-top: 20px;
+    display: block;
+    text-align: center;
+}
+
+.confirm-button a {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+.confirm-button a.enabled {
+    pointer-events: auto;
+    opacity: 1;
+}

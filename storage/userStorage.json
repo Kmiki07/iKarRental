@@ -1,0 +1,63 @@
+{
+    "67674eabcc746": {
+        "fullname": "Netro Xert",
+        "email": "netro.xert@gmail.com",
+        "password": "$2y$12$3XUo7en4y1FQ869JTWpcbekTfKd97yb0TZ4NO3OWEY0IbVzyWbjQ.",
+        "pfp": "media\/profile pictures\/example.jpg",
+        "roles": [
+            "user"
+        ],
+        "id": "67674eabcc746"
+    },
+    "67674f8f485c6": {
+        "fullname": "asd",
+        "email": "asd@asd.asd",
+        "password": "$2y$12$FliU0ySMzbXfgWonpu\/NtuEiqywRKFCj747ASyCr8f2WbYXP8A28m",
+        "pfp": "media\/profile pictures\/default.png",
+        "roles": [
+            "user"
+        ],
+        "id": "67674f8f485c6"
+    },
+    "67688d2ac77c4": {
+        "fullname": "Mikl\u00f3s Keszei",
+        "email": "miklos.keszei@gmail.com",
+        "password": "$2y$12$WQ7pUaDzz4T03EUv\/Cu5P.qM5EyhtvPG5Jy86deXfA9ziakrA.LWu",
+        "pfp": "media\/profile pictures\/default.png",
+        "roles": [
+            "user"
+        ],
+        "id": "67688d2ac77c4"
+    },
+    "67692d58689c2": {
+        "fullname": "Admin",
+        "email": "admin@ikarrental.hu",
+        "password": "$2y$12$zK6jPBCZ3beiwfEYM4d9KeEqTvZaOnBUg2CuWOmwQBGHnEgp.QdHW",
+        "pfp": "media\/profile pictures\/default.png",
+        "roles": [
+            "user",
+            "admin"
+        ],
+        "id": "67692d58689c2"
+    },
+    "67692f9eab4ac": {
+        "fullname": "Samuel S\u00e1ndor",
+        "email": "s@s.com",
+        "password": "$2y$12$i6Ot2SXGA7oZshqTnUsEt.Gd9xlagcCMO0lm7lrynIgwPHn1ib3Ma",
+        "pfp": "media\/profile pictures\/example.png",
+        "roles": [
+            "user"
+        ],
+        "id": "67692f9eab4ac"
+    },
+    "676c842743575": {
+        "fullname": "John Doe",
+        "email": "johndoe@jd.com",
+        "password": "$2y$12$sMtAJzT0iuTo8jZWXLjKMu4kBLDaXl8NfSRe62CmrZk4w5Icxrbzu",
+        "pfp": "media\/profile pictures\/example.jpg",
+        "roles": [
+            "user"
+        ],
+        "id": "676c842743575"
+    }
+}

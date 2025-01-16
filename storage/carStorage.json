@@ -1,0 +1,90 @@
+{
+    "67681d685a336": {
+        "brand": "Honda",
+        "model": "Civic",
+        "year": "2021",
+        "transmission": "Manu\u00e1lis",
+        "fuel_type": "Benzin",
+        "passengers": "5",
+        "daily_price_huf": "15000",
+        "image": "https:\/\/media.ed.edmunds-media.com\/honda\/civic\/2019\/oem\/2019_honda_civic_sedan_touring_fq_oem_1_815.jpg",
+        "id": "67681d685a336"
+    },
+    "7b2a1c3d89aa": {
+        "brand": "Toyota",
+        "model": "Corolla",
+        "year": "2020",
+        "transmission": "Automata",
+        "fuel_type": "Benzin",
+        "passengers": "5",
+        "daily_price_huf": "12000",
+        "image": "https:\/\/media.ed.edmunds-media.com\/toyota\/corolla\/2020\/oem\/2020_toyota_corolla_sedan_xse_fq_oem_1_815.jpg",
+        "id": "7b2a1c3d89aa"
+    },
+    "4f6d2e98bb71": {
+        "brand": "Ford",
+        "model": "Mustang",
+        "year": "2019",
+        "transmission": "Manu\u00e1lis",
+        "fuel_type": "Benzin",
+        "passengers": "4",
+        "daily_price_huf": "30000",
+        "image": "https:\/\/media.ed.edmunds-media.com\/ford\/mustang\/2025\/oem\/2025_ford_mustang_coupe_ecoboost-premium_fq_oem_1_1600x1067.jpg",
+        "id": "4f6d2e98bb71"
+    },
+    "9c3b4e6f25df": {
+        "brand": "Volkswagen",
+        "model": "Golf",
+        "year": "2022",
+        "transmission": "Automata",
+        "fuel_type": "D\u00edzel",
+        "passengers": "5",
+        "daily_price_huf": "14000",
+        "image": "https:\/\/media.ed.edmunds-media.com\/volkswagen\/golf-r\/2023\/oem\/2023_volkswagen_golf-r_4dr-hatchback_base_fq_oem_7_1600x1067.jpg",
+        "id": "9c3b4e6f25df"
+    },
+    "13d7fcb46ea1": {
+        "brand": "Tesla",
+        "model": "Model 3",
+        "year": "2023",
+        "transmission": "Automata",
+        "fuel_type": "Elektromos",
+        "passengers": "5",
+        "daily_price_huf": "40000",
+        "image": "https:\/\/media.ed.edmunds-media.com\/tesla\/model-3\/2024\/oem\/2024_tesla_model-3_sedan_long-range_fq_oem_12_1600x1067.jpg",
+        "id": "13d7fcb46ea1"
+    },
+    "61f2c3e9b498": {
+        "brand": "BMW",
+        "model": "3 Series",
+        "year": "2021",
+        "transmission": "Automata",
+        "fuel_type": "Hibrid",
+        "passengers": "5",
+        "daily_price_huf": "25000",
+        "image": "https:\/\/media.ed.edmunds-media.com\/bmw\/3-series\/2021\/oem\/2021_bmw_3-series_sedan_330e_fq_oem_1_815.jpg",
+        "id": "61f2c3e9b498"
+    },
+    "61f2c3e9b499": {
+        "brand": "BMW",
+        "model": "3 Series",
+        "year": "2021",
+        "transmission": "Automata",
+        "fuel_type": "Hibrid",
+        "passengers": "5",
+        "daily_price_huf": "25000",
+        "image": "https:\/\/media.ed.edmunds-media.com\/bmw\/3-series\/2021\/oem\/2021_bmw_3-series_sedan_330e_fq_oem_1_815.jpg",
+        "id": "61f2c3e9b499"
+    },
+    "61f2c3e9b490": {
+        "brand": "BMW",
+        "model": "3 Series",
+        "year": "2021",
+        "transmission": "Automata",
+        "fuel_type": "Hibrid",
+        "passengers": "5",
+        "daily_price_huf": "25000",
+        "image": "https:\/\/media.ed.edmunds-media.com\/bmw\/3-series\/2021\/oem\/2021_bmw_3-series_sedan_330e_fq_oem_1_815.jpg",
+        "id": "61f2c3e9b490"
+    }
+}

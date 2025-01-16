@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Outfit:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+
+/* Global color variables */
+:root {
+    --primary-color: #1B1B1B; /* Dark gray background */
+    --secondary-color: #2C2C2C; /* Lighter gray navbar */
+    --text-color: #ffffff; /* White text */
+    --button-yellow-color: #FDC43D; /* Yellow buttons */
+    --button-blue-color: #4C6087; /* Blue buttons */
+    --danger-color: #E73E58; /* Red danger color */
+    --button-white-color: #E8E8E8; /* Grey buttons */
+}
+
+/* Button templates */
+.btn-yellow {
+    background-color: var(--button-yellow-color);
+    color: var(--primary-color);
+    border-radius: 10px;
+    border: 0;
+    padding: 5px;
+    font-weight: 700 !important;
+}
+.btn-book {
+    background-color: var(--button-yellow-color);
+    color: var(--primary-color);
+    border-radius: 20px; /* Increased border radius */
+    border: 0;
+    padding: 8px;
+    font-weight: 700 !important;
+}
+
+.btn-plain {
+    background-color: transparent;
+    color: var(--text-color);
+    border-radius: 10px;
+    border: 0;
+    padding: 5px;
+    font-weight: 700 !important;
+}
+
+.btn-red {
+    background-color: var(--danger-color);
+    color: var(--text-color);
+    border-radius: 10px;
+    border: 0;
+    padding: 5px;
+    font-weight: 600 !important;
+}
+
+.btn-blue {
+    background-color: var(--button-blue-color);
+    color: var(--text-color);
+    border-radius: 10px;
+    border: 0;
+    padding: 5px;
+    font-weight: 600 !important;
+}
+
+.btn-gray {
+    background-color: var(--button-white-color);
+    color: var(--primary-color);
+    border-radius: 10px;
+    border: 0;
+    padding: 5px;
+    font-weight: 600 !important;
+}
+
+
+
+/* General */
+body {
+    font-family: 'Plus Jakarta Sans', 'IBM Plex Serif' !important;
+    font-weight: 600 !important;
+    background-color: var(--primary-color) !important;
+    color: var(--text-color) !important;
+}
+
+a {
+    color: var(--text-color) !important;
+}
+
+/* Errors */
+.error {
+    color: var(--danger-color);
+    font-weight: 300;
+}
+
+/* Cards */
+.card {
+    background-color: var(--secondary-color) !important;
+    color: var(--text-color) !important;
+    border-radius: 10px;
+    border: 0;
+}
+
+/* Testing containers */
+/* .container {
+    border: 1px solid black;
+} */
+
+
+/* Form input styles */
+input[type="text"],
+input[type="password"],
+input[type="number"],
+input[type="date"],
+select {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    border: 1px solid var(--secondary-color);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+input[type="number"]::placeholder,
+input[type="date"]::placeholder {
+    color: var(--secondary-color);
+}
+
+select {
+    color: var(--text-color);
+}
+
+.btn-small {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: 600 !important;
+    cursor: pointer;
+    height: 31.19px;
+    width: 31.19px;
+    display: inline-flex; /* Ensure buttons are inline-flex */
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+}
+
+.btn-small:hover {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+
+
+
+
+
+/* Images */
+.pfp-profile {
+    border-radius: 10%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    /* border: 2px solid #000000; */
+}
+
+.response-icon {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+/* Navbar */
+.navbar {
+    background-color: var(--secondary-color) !important;
+    color: var(--text-color) !important;
+}
+.pfp-navbar {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border: 2px solid #000000;
+}
+
+.navbar-toggler {
+    border-color: rgba(0, 0, 0, 0) !important;
+}
+.navbar-toggler-icon {
+    background-image: url('../media/hamburger-icon.png') !important;
+}
+
+
+/* Bodies */
+
+.content-body {
+    margin-top: 3rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+}
+
+.form-body {
+
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-top: 3rem;
+}
+/* input fields */
+.form-body input {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.carpage-body {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.filter-body {
+    width: 60%;
+    margin-left: auto;
+    margin-right: 0;
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+@media (max-width: 992px) {
+    .filter-body {
+        width: 100%;
+        font-size: 1rem;
+        font-weight: 400;
+    }
+}
+
+
+
+/* Index.php */
+
+.filter-form input[type="date"]{
+    width: 80%;
+}
+.filter-form select {
+    width: 90%;
+}
+
+.filter-input .row>div {
+    margin-bottom: 15px;
+    padding: 0;
+}
+
+.filter-submit {
+    /* display: block; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.filter-submit button {
+    width: 80%;
+}
+.title {
+    margin-top: 3rem;
+    margin-left: 1rem;
+    font-weight: 700;
+    font-size: 3rem;
+}
+.register-button {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 3rem;
+}
+@media (max-width: 992px) {
+    .title {
+        margin-top: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+        font-weight: 600;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .register-button {
+        display: inline-block;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 10rem;
+        height: 2.5rem;
+    }
+    .register-container {
+        text-align: center;
+    }
+}
+
+@media (max-width: 992px) {
+    .filter-submit button {
+            width: 10rem;
+    }
+}
+
+
+
+
+/* Carpage.php */
+.details-card {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    border-radius: 20px;
+    height: 80%;
+}
+.booking-buttons {
+    height: 20%;
+}
+.day {
+    font-weight: 300;
+}
+.display-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.h1-car {
+    font-size: 4rem;
+}
